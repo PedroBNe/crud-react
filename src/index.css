@@ -77,3 +77,34 @@ button:focus-visible {
 .wide-box {
   grid-column: span 2;
 }
+
+.ativo {
+  padding-bottom: 9px;
+  border-bottom: white solid 2px;
+}
+
+.gridItens{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navItens{
+  background-color: #1C1A1D;
+  padding: 1rem;
+}
+
+.sectionItens{
+  padding: 1rem;
+}
+
+.sectionItens .actionBtn{
+  display: flex;
+  gap: 1rem;
+}
+
+.formItem{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  
+}

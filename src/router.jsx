@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Itens from "./pages/Itens";
 import TodosItens from "./pages/TodosItens";
 import NovoItem from "./pages/NovoItem";
+import Item from "./pages/Item";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
         element: <Dashboard />
       },
       {
-        path: "/itens",
+        path: "itens",
         element: <Itens />,
         children: [
           {
@@ -25,8 +26,12 @@ const router = createBrowserRouter([
           {
             path: "novoitem",
             element: <NovoItem />
-          }
+          },
         ]
+      },
+      {
+        path: "itens/:itensId",
+        element: <Item />
       }
     ]
   }

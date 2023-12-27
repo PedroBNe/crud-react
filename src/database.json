@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "nome": "7 Wonders",
+    "estoque": 8,
+    "preco": 399.99,
+    "categoria": "Jogos",
+    "descricao": "Jogo de tabuleiro para vários jogadores",
+    "dateCreated": "",
+    "dateModification": ""
+  },
+  {
+    "id": "2",
+    "nome": "O senhor dos aneis",
+    "estoque": 32,
+    "preco": 123.99,
+    "categoria": "Livros",
+    "descricao": "Livro sobre senhor dos aneis",
+    "dateCreated": "",
+    "dateModification": ""
+  }
+]
